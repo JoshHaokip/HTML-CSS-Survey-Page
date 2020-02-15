@@ -1,0 +1,62 @@
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+
+</script>
+
+<body>
+    <header>
+
+      <h1 id="title">Coffee Experience 2020</h1>
+      <p id="description">We would love to learn more about your experience with coffee</p>
+    </header>
+
+  <form id="survey-form">
+
+        <label class="emalabel" id="name-label"> Name:</label>
+          <input class="inputbox" type="text" name="name" id="name" placeholder="the name your mother gave you....." required><br>
+        <label class="emalabel" id="email-label">Email:</label>
+          <input class="inputbox" type="email" name="email" id="email" placeholder="your email you've used since college....." required><br>
+        <label class="emalabel" id="number-label">Age:</label>
+          <input class="inputbox" type="number" name="age" id="number" min="18" max="65" placeholder="the age on your passposrt, not in your head....." required><br>
+
+        <label class="emalabel" for="dropdown">Favourite place to drink:</label>
+            <select class="inputbox" id="dropdown" name="coffeeshops">
+              <option value="Starbucks">Starbucks</option>
+              <option value="Costa">Costa</option>
+              <option value="Independent-Coffee-Shops">Independent Coffee Shops</option>
+              <option value="Artisan-Coffee">Artisan Coffee</option>
+           </select>
+
+        <label class="emalabel">How often do you drink coffee?</label>
+            <input class="inputcoffee" type="radio" id="once" name="coffee-drink" value="once">
+            <label for="once">Once a day</label><br>
+
+            <input class="inputcoffee" type="radio" id="twice" name="coffee-drink" value="twice">
+            <label  for="twice">Twice a day</label><br>
+
+            <input class="inputcoffee" type="radio" id="more-than-twice" name="coffee-drink" value="twoplus">
+            <label  for="more-than-twice">More than twice a day</label><br>
+
+        <label class="emalabel">What type of coffees do you drink?</label>
+            <input type="checkbox" id="coffee1" name="coffee1" value="latte">
+            <label for="coffee1">Latte</label><br>
+
+            <input type="checkbox" id="coffee2" name="coffee2" value="Flatwhite">
+            <label for="coffee2">Flatwhite</label><br>
+
+            <input type="checkbox" id="coffee3" name="coffee3" value="Cappuccino">
+            <label for="coffee3">Cappuccino</label><br>
+
+            <input type="checkbox" id="coffee4" name="coffee4" value="Mocha">
+            <label for="coffee4">Mocha</label><br><br>
+
+
+        <label class="emalabel" for="comments">Feel free to comment:</label><br>
+            <textarea class="comsection" name="coffeecomments" rows="8" cols="60"></textarea><br>
+
+        <br>
+         <input class="submit" id="submit" type="submit" value="Submit">
+
+
+  </form>
