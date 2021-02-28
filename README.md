@@ -5,8 +5,6 @@
 
 Check out my survey page: http://www.joshhaokip.com/HTML-CSS-Survey-Page/
 
-## 
-
 
 # :running: Running the app
 
@@ -43,6 +41,8 @@ My goal is to create a survey form using my knowledge of HTML/CSS
 ### Technologies
 
 - HTML
+- Input fields
+- Textarea
 - CSS
 - Git
 
