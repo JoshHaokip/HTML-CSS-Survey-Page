@@ -3,7 +3,7 @@
 > As part of the FreeCodeCamp 'Responsive Web Design' Certification, I was taksed to build a survey page.
 
 
-Check out my survey page: https://joshhaokip.github.io/coffee-survey-page/
+Check out my survey page: http://www.joshhaokip.com/HTML-CSS-Survey-Page/
 
 ## 
 
@@ -13,7 +13,7 @@ Check out my survey page: https://joshhaokip.github.io/coffee-survey-page/
 Clone this repo:
 
 ```
-$ git clone https://joshhaokip.github.io/coffee-survey-page/
+$ git clone http://www.joshhaokip.com/HTML-CSS-Survey-Page/
 ```
 
 Install all dependancies:
